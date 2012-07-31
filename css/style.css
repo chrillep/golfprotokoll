@@ -1,0 +1,61 @@
+
+html, body {
+	background-image:url('../pics/bg.png');
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+	margin:0;
+	padding:15px;
+	font-family: 'Allan', Helvetica, Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.5);
+	border-bottom:8px solid rgba(0, 0, 0, 0.8);
+
+}
+h1 {
+	color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 60px;
+	line-height: 75px;
+	
+	border-bottom:17px solid rgba(0, 0, 0, 0.8);
+}
+ 
+p {
+	font-family: 'Cardo', Georgia, Times, serif;
+	font-size: 18px;
+	line-height: 25px;
+	padding:15px;
+}
+
+#wrapper {
+	background-color: rgba(59,123,20,0.8);
+	width: 100%%;
+	margin:0;
+}
+
+#header {
+	border-left:34px solid rgba(0, 0, 0, 0.8);
+}
+
+
+#main {
+	border-left:34px solid rgba(0, 0, 0, 0.8);
+	margin-bottom: 35px;
+}
+
+
+#footer {
+	position:fixed;
+	bottom:0px;
+	left:0;
+	height:30px;
+	background-color: rgba(59,123,20,0.8);
+	border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+	border-left:34px solid rgba(0, 0, 0, 0.8);
+	width: 100%;
+}
+
+
