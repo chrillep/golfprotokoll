@@ -1,8 +1,13 @@
 
+* {
+	margin: 0;
+	padding: 0;
+}
 html, body {
 	background-image:url('../pics/bg.png');
 	margin: 0;
 	padding: 0;
+	font-family: 'Cardo', Georgia, Times, serif;
 }
 
 h1,h2,h3,h4,h5 {
@@ -12,6 +17,7 @@ h1,h2,h3,h4,h5 {
 	color: rgb(0, 0, 0);
 	background-color: rgba(255, 255, 255, 0.5);
 	border-bottom:8px solid rgba(0, 0, 0, 0.8);
+	padding-left: 50px;
 
 }
 h1 {
@@ -19,7 +25,6 @@ h1 {
 	background-color: rgba(255, 255, 255, 0.5);
 	font-size: 60px;
 	line-height: 75px;
-	
 	border-bottom:17px solid rgba(0, 0, 0, 0.8);
 }
  
@@ -28,34 +33,93 @@ p {
 	font-size: 18px;
 	line-height: 25px;
 	padding:15px;
-}
+		padding-left: 50px;
 
+}
+#bigwrap {
+	margin: 0 auto;
+max-width: 800px}
 #wrapper {
 	background-color: rgba(59,123,20,0.8);
-	width: 100%%;
-	margin:0;
+
+
 }
 
 #header {
 	border-left:34px solid rgba(0, 0, 0, 0.8);
 }
 
+#aside {
+
+}
+
+#textint>label>h2 {
+	clear:both;
+	padding: 0;
+}
+#textint {
+}
+ .date { 
+	float:right;
+	position:relative;
+	padding:45px 5px 0px;			
+} 
+.date .month {
+	text-transform: uppercase;
+	font-size:25px;
+}
+.date .day {
+	font-size:45px;
+	line-height:45px;
+	position:absolute; left:5px; top:0px;
+}
+.date .year { 
+	display:block; 
+	position:absolute; right:-5px; top:15px;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);			
+}
 
 #main {
 	border-left:34px solid rgba(0, 0, 0, 0.8);
-	margin-bottom: 35px;
 }
-
-
 #footer {
-	position:fixed;
-	bottom:0px;
-	left:0;
+	padding-left: 15px;
 	height:30px;
-	background-color: rgba(59,123,20,0.8);
 	border-bottom: 5px solid rgba(0, 0, 0, 0.8);
 	border-left:34px solid rgba(0, 0, 0, 0.8);
-	width: 100%;
+
+}
+#loginwrapper {
+position: fixed;
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+	background-color: rgba(59,123,20,0.8);
+
+	 
+}
+#loginform {
+	margin: 3px;
+}
+
+#loginform input {
+	height: 20px;
+	padding: 2px 8px 3px;
+	width: 173px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #242424;
+	font-size: 12px;
+	display:block;
+}
+
+input[type="text"], input[type="password"], textarea {
+	border-top: 1px solid #B6B6B6;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #B6B6B6;
 }
 
 
